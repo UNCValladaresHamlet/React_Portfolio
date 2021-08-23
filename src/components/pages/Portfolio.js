@@ -1,12 +1,141 @@
 import React from 'react';
+import { MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBBtn} from 'mdb-react-ui-kit';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <p>
-        Hamlet's Portfolio
-      </p>
-    </div>
+    <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
+      <MDBCol>
+
+        <MDBCard>
+          <MDBCardImage
+            src='https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+
+            <div className="text-center">
+            <MDBBtn>Primary</MDBBtn>
+            </div>
+
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+      <MDBCol>
+
+        <MDBCard>
+          <MDBCardImage
+            src='https://mdbcdn.b-cdn.net/img/new/standard/city/042.jpg'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+
+            <div className="text-center">
+            <MDBBtn>Primary</MDBBtn>
+            </div>
+
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol>
+        <MDBCard>
+          <MDBCardImage
+            src='https://mdbcdn.b-cdn.net/img/new/standard/city/043.jpg'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+
+            <div className="text-center">
+            <MDBBtn>Primary</MDBBtn>
+            </div>
+
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol>
+        <MDBCard>
+          <MDBCardImage
+            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+
+            <div className="text-center">
+            <MDBBtn>Primary</MDBBtn>
+            </div>
+
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol>
+        <MDBCard>
+          <MDBCardImage
+            src='https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+
+            <div className="text-center">
+            <MDBBtn>Primary</MDBBtn>
+            </div>
+            
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol>
+        <MDBCard>
+          <MDBCardImage
+            src='https://mdbcdn.b-cdn.net/img/new/standard/city/041.jpg'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+
+            <div className="text-center">
+            <MDBBtn>Primary</MDBBtn>
+            </div>
+
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+    </MDBRow>
   );
 }
