@@ -35,7 +35,7 @@ export default function Portfolio() {
             </div> */}
 
             <div className="text-center">
-            <a href="https://github.com/AnthonyPlanisek/Project-1">Github</a>
+            <a href="https://github.com/AnthonyPlanisek/Project-1">Github Repo</a>
             </div>
 
           </MDBCardBody>
@@ -57,7 +57,7 @@ export default function Portfolio() {
             </MDBCardText>
 
             <div className="text-center">
-            <a href="https://github.com/CSS-Crocodiles/Project_2/tree/main">Github</a>
+            <a href="https://github.com/CSS-Crocodiles/Project_2/tree/main">Github Repo</a>
             </div>
 
           </MDBCardBody>
@@ -80,7 +80,7 @@ export default function Portfolio() {
             </MDBCardText>
 
             <div className="text-center">
-            <a href="https://github.com/UNCValladaresHamlet/Password_Generator">Github</a>
+            <a href="https://github.com/UNCValladaresHamlet/Password_Generator">Github Repo</a>
             </div>
 
           </MDBCardBody>
@@ -104,7 +104,7 @@ export default function Portfolio() {
             </MDBCardText>
 
             <div className="text-center">
-            <a href="https://github.com/UNCValladaresHamlet/HW_NoteTaker">Github</a>
+            <a href="https://github.com/UNCValladaresHamlet/HW_NoteTaker">Github Repo</a>
             </div>
             
           </MDBCardBody>
@@ -126,7 +126,7 @@ export default function Portfolio() {
             </MDBCardText>
 
             <div className="text-center">
-            <a href="https://github.com/UNCValladaresHamlet/HW_5_WorkDayScheduler">Github</a>
+            <a href="https://github.com/UNCValladaresHamlet/HW_5_WorkDayScheduler">Github Repo</a>
             </div>
 
           </MDBCardBody>
@@ -149,7 +149,7 @@ export default function Portfolio() {
             </MDBCardText>
 
             <div className="text-center">
-            <a href="https://github.com/UNCValladaresHamlet/Workout_Tracker">Github</a>
+            <a href="https://github.com/UNCValladaresHamlet/Workout_Tracker">Github Repo</a>
             </div>
 
           </MDBCardBody>

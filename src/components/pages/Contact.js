@@ -1,24 +1,72 @@
-import React from "react";
-// import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
-import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
-export default function Contact() {
-  return (
-<MDBContainer>
-  <MDBRow>
-    <MDBCol md="6">
-      <form>
-        <p className="h5 text-center mb-4">Sign in</p>
-        <div className="grey-text">
-          <MDBInput label="Type your email" icon="envelope" group type="email" validate error="wrong"
-            success="right" />
-          <MDBInput label="Type your password" icon="lock" group type="password" validate />
+import { FaHouseDamage, FaPhoneAlt, FaMailBulk} from "react-icons/fa";
+
+const Contact = () => {
+    return (
+        <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
         </div>
-        <div className="text-center">
-          <MDBBtn>Login</MDBBtn>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class><FaHouseDamage /></i>
+                <h4>Location:</h4>
+                <p>Raleigh, NC</p>
+              </div>
+
+              <div class="email">
+                <i class><FaMailBulk /></i>
+                <h4>Email:</h4>
+                <p>sigorahv@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class><FaPhoneAlt /></i>
+                <h4>Call:</h4>
+                <p>+1 919 935 9082</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
         </div>
-      </form>
-    </MDBCol>
-  </MDBRow>
-</MDBContainer>
-  );
+
+      </div>
+    </section>
+    );
 }
+
+export default Contact;

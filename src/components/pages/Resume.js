@@ -66,7 +66,7 @@ export default function Blog() {
 
   <div class="container my-class">
     <h1 className="font-weight-bold">Programming Languages & Tools</h1>
-            <ul class="list-inline ">
+            <ul class="list-inline" className="deep-purple-text">
               <li class="list-inline-item"> <FaHtml5 size={65} /> </li>
               <li class="list-inline-item"> <FaCss3Alt size={65}/> </li>
               <li class="list-inline-item"> <IoLogoJavascript size={65}/> </li>
@@ -149,7 +149,7 @@ export default function Blog() {
 
     <MDBRow className="mb-3">
       <MDBCol size="2">
-        <MDBIcon icon="magic" size="2x" className="deep-purple-text" />
+        <MDBIcon size="2x" className="deep-purple-text" />
       </MDBCol>
       <MDBCol size="10">
         <h5 className="font-weight-bold mb-3"></h5>
