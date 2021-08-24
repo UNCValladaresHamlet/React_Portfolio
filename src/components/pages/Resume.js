@@ -1,7 +1,9 @@
-import { FaHtml5, FaCss3Alt, FaReact, FaNode, FaDatabase, FaNpm, FaBootstrap, FaGit, FaGithub} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaNode, FaDatabase, FaNpm, FaBootstrap, FaGit, FaGithub, FaDownload} from "react-icons/fa";
 import {IoLogoJavascript} from "react-icons/io"
 import React from 'react';
 import coding from '../../img/portfolio/codingcomputer.jpg'
+import resume from '../../img/portfolio/resume2.pdf'
+
 
 // import { MDBListGroup, MDBListGroupItem, MDBContainer, MDBBadge } from "mdbreact";
 import { MDBRow, MDBCol, MDBIcon } from "mdbreact";
@@ -60,26 +62,32 @@ export default function Blog() {
 //   </MDBRow>
 // </MDBContainer>
 
-<section className="my-5">
+<section >
 
   <div class="container my-class">
-    <h1>Programming Languages & Tools</h1>
+    <h1 className="font-weight-bold">Programming Languages & Tools</h1>
             <ul class="list-inline ">
-              <li class="list-inline-item"> <FaHtml5 size={70} /> </li>
-              <li class="list-inline-item"> <FaCss3Alt size={70}/> </li>
-              <li class="list-inline-item"> <IoLogoJavascript size={70}/> </li>
-              <li class="list-inline-item"> <FaReact size={70}/> </li>
-              <li class="list-inline-item"> <FaNode size={70}/> </li>
-              <li class="list-inline-item"> <FaDatabase size={70}/> </li>
-              <li class="list-inline-item"> <FaNpm size={70}/> </li>
-              <li class="list-inline-item"> <FaBootstrap size={70}/> </li>
-              <li class="list-inline-item"> <FaGit size={70}/> </li>
-              <li class="list-inline-item"> <FaGithub size={70}/> </li>
+              <li class="list-inline-item"> <FaHtml5 size={65} /> </li>
+              <li class="list-inline-item"> <FaCss3Alt size={65}/> </li>
+              <li class="list-inline-item"> <IoLogoJavascript size={65}/> </li>
+              <li class="list-inline-item"> <FaReact size={65}/> </li>
+              <li class="list-inline-item"> <FaNode size={65}/> </li>
+              <li class="list-inline-item"> <FaDatabase size={65}/> </li>
+              <li class="list-inline-item"> <FaNpm size={65}/> </li>
+              <li class="list-inline-item"> <FaBootstrap size={65}/> </li>
+              <li class="list-inline-item"> <FaGit size={65}/> </li>
+              <li class="list-inline-item"> <FaGithub size={65}/> </li>
             </ul>
+
+  <h4 className="text-center">
+  <a class="link-danger" href= {resume} download>My Resume <FaDownload size={20} /></a>
+  </h4>
+
 </div>
 
 
 <MDBRow>
+  
   <MDBCol md="4">
     <MDBRow className="mb-3">
       <MDBCol size="2">
