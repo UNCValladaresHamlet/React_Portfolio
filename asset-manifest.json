@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.77b1a4c8.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.363dea1a.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.363dea1a.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.c2ba7083.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.c2ba7083.js.map",
+    "static/css/2.26dd1b66.chunk.css": "/React_Portfolio/static/css/2.26dd1b66.chunk.css",
+    "static/js/2.31f2659e.chunk.js": "/React_Portfolio/static/js/2.31f2659e.chunk.js",
+    "static/js/2.31f2659e.chunk.js.map": "/React_Portfolio/static/js/2.31f2659e.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/2.26dd1b66.chunk.css.map": "/React_Portfolio/static/css/2.26dd1b66.chunk.css.map",
+    "static/css/main.77b1a4c8.chunk.css.map": "/React_Portfolio/static/css/main.77b1a4c8.chunk.css.map",
+    "static/js/2.31f2659e.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.31f2659e.chunk.js.LICENSE.txt",
+    "static/media/Project_1.7754bb66.png": "/React_Portfolio/static/media/Project_1.7754bb66.png",
+    "static/media/Project_2.1a74aef3.PNG": "/React_Portfolio/static/media/Project_2.1a74aef3.PNG",
+    "static/media/mdb.css": "/React_Portfolio/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/codingcomputer.03f69e0c.jpg": "/React_Portfolio/static/media/codingcomputer.03f69e0c.jpg",
+    "static/media/all.min.css": "/React_Portfolio/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/fitness_tracker.6038e450.PNG": "/React_Portfolio/static/media/fitness_tracker.6038e450.PNG",
+    "static/media/new_profile.b5593496.PNG": "/React_Portfolio/static/media/new_profile.b5593496.PNG",
+    "static/media/note_taker.81e0f15d.PNG": "/React_Portfolio/static/media/note_taker.81e0f15d.PNG",
+    "static/media/password.b1e96827.png": "/React_Portfolio/static/media/password.b1e96827.png",
+    "static/media/resume2.ef904fc0.pdf": "/React_Portfolio/static/media/resume2.ef904fc0.pdf",
+    "static/media/schedule.a0842863.png": "/React_Portfolio/static/media/schedule.a0842863.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2ba7083.js",
+    "static/css/2.26dd1b66.chunk.css",
+    "static/js/2.31f2659e.chunk.js",
+    "static/css/main.77b1a4c8.chunk.css",
+    "static/js/main.363dea1a.chunk.js"
+  ]
+}
